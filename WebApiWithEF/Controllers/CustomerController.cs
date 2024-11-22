@@ -78,9 +78,6 @@ namespace WebApiWithEF.Controllers
             await _dbContext.SaveChangesAsync();
             return NoContent();
         }
-        public void UpdateData()
-        {
-            //Update a content;
-        }
+       
     }
 }
