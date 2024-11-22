@@ -43,5 +43,9 @@ namespace WebApiWithEF.Controllers
             _dbContext.SaveChanges();
             return Ok();
         }
+        public void getdata()
+        {
+            //to do
+        }
     }
 }
